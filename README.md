@@ -8,7 +8,7 @@ banana is a pyramid word because you have 1 'b', 2 'n's, and 3 'a's.
 bandana is not a pyramid word because you have 1 'b' and 1 'd'.
 
 ## Installation/Set-Up Steps for Linux User
-### Note:It is assumed that the testing machine has python3 and pip already installed in it.``
+### Note:It is assumed that the testing machine has python3 and pip already installed in it.
 
 ```
 pip3 install virtualenv
