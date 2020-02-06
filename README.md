@@ -27,3 +27,6 @@ pip3 install flask
 ```
 python3 app.py
 ```
+Once you run the above command, the using postman fire a GET request with input string as a query paramater.
+GET Request - ``` http://127.0.0.1:5000/?query=weqqw```
+The snapshor for the same is below -
