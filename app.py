@@ -32,10 +32,9 @@ def is_pyramid_word(input_string):
     for x in range(len(input_string)):
         if input_string[x] in char_count:
             char_count[input_string[x]] = char_count[input_string[x]] + 1
-            max_count = max(max_count, char_count[input_string[x]])
         else:
             char_count[input_string[x]] = 1
-            max_count = 1
+        max_count = max(max_count, char_count[input_string[x]])
     char_count_arr = [0] * max_count    # Another map created to check if the char frequency is strictly increasing
     for value in char_count.values():
         char_count_arr[value - 1] = char_count_arr[value - 1] + 1
