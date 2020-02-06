@@ -28,7 +28,8 @@ pip3 install flask
 python3 app.py
 ```
 Once you run the above command, the using postman fire a GET request with input string as a query paramater.
-GET Request - ``` http://127.0.0.1:5000/?query=weqqw```
+GET Request - ``` http://127.0.0.1:5000/?query=<INPUT_STRING>```
 The snapshor for the same is below -
+
 ![WhatsApp Image 2020-02-05 at 8 37 09 PM](https://user-images.githubusercontent.com/8374949/73907463-9b23d380-4863-11ea-8351-88ad156598b5.jpeg)
 
